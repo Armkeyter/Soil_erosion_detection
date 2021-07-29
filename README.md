@@ -1,6 +1,6 @@
 # Soil erosion detection
 ## Purpose
-Main goal of this project is to find erosion on the pictures wihch were made by satellite Sentinel2. Real image from satellite [T36UXV_20200406T083559_TCI_10m.jp2][satellite] was used in this progect and moreover masks [/masks][masks] which show erosion.
+Main goal of this project is to find erosion on the pictures wihch were made by satellite Sentinel2. Real image from satellite was used in this progect and moreover masks [/masks][masks] which show erosion.
 ## Action plan
 #### In file [data.analysis][analysis]
 - Read satellite data with ```rasterio```
@@ -26,9 +26,8 @@ To sum up, the model will work if it read all data from the .shp file. The U-Net
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
-   [satellite]: <https://github.com/Armkeyter/Soil_erosion_detection/T36UXV_20200406T083559_TCI_10m.jp2>
-   [masks]: <https://github.com/Armkeyter/Soil_erosion_detection/masks/>
-   [shp]: <https://github.com/Armkeyter/Soil_erosion_detection/masks/Masks_T36UXV_20190427.shp>
-   [analysis]: <https://github.com/Armkeyter/Soil_erosion_detection/data_analysis.ipynb>
-   [train]: <https://github.com/Armkeyter/Soil_erosion_detection/model_training.ipynb>
+   [masks]: <https://github.com/Armkeyter/Soil_erosion_detection/blob/main/Masks_T36UXV_20190427.shp>
+   [shp]: <https://github.com/Armkeyter/Soil_erosion_detection/blob/main/Masks_T36UXV_20190427.shp>
+   [analysis]: <https://github.com/Armkeyter/Soil_erosion_detection/blob/main/data_analysis.ipynb>
+   [train]: <https://github.com/Armkeyter/Soil_erosion_detection/blob/main/model_training.ipynb>
 
